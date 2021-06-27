@@ -5,7 +5,8 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "init-db": "node src/db/init.js"
+    "init-db": "node src/db/init.js",
+    "dependencies": "npm install express ejs sqlite sqlite3"
   },
   "keywords": [],
   "author": "PoH",
